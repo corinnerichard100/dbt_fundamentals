@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_baseball__allstar_external
+    description: allstar staging table
+    columns:
+      - name: playerID
+        description: ""
+        tests:
+          - not_null
+      - name: yearID
+        description: ""
+      - name: gameNum		
+      - name: teamID
+      - name: lgID
+      - name: GP
+      - name: startingPos
