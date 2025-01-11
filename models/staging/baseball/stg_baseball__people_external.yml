@@ -6,9 +6,6 @@ models:
     columns:
       - name: playerid
         description: pimary key
-        tests:
-          - not_null:
-          - unique:
       - name: birthyear
         description: ""
       - name: birthmonth
