@@ -24,3 +24,16 @@ sources:
       - name: teams_external
       - name: teamsfranchises_external
       - name: teamshalf_external
+  
+
+  - name: ecommerce
+    database: playground-358817
+    schema: target_ecommerce
+    tables:
+        - name: orders
+        - name: order_items
+        - name: customers
+        - name: payments
+        - name: products
+        - name: sellers
+        - name: geolaction
