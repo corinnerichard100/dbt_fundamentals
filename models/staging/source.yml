@@ -36,4 +36,4 @@ sources:
         - name: payments
         - name: products
         - name: sellers
-        - name: geolaction
+        - name: geolocation
