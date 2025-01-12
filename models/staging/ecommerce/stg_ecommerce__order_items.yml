@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_ecommerce__order_items
+    description: order item details
+    columns:
+      - name: order_id
+      - name: order_item_id
+      - name:  product_id
+      - name:  seller_id
+      - name:  shipping_limit_date
+      - name:  price
+      - name:  freight_value
